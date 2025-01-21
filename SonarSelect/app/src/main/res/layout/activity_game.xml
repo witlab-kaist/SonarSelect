@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.SwipeDismissFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.GameActivity"
+    tools:deviceIds="wear">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/DisableSwipeBack"
+        app:layout_boxedEdges="all">
+
+        <ProgressBar
+            android:id="@+id/dwellProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:progressTint="#27AE60"
+            android:progressBackgroundTint="#051A0E"
+            android:max="100"
+            android:progress="0"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+</androidx.wear.widget.SwipeDismissFrameLayout>
+
