@@ -1,4 +1,5 @@
 # SonarSelect
+![SonarSelect](SonarSelect.png)
 
 Cross, Dwell, or Pinch: Designing and Evaluating Around-Device Selection Methods for Unmodified Smartwatches.        
 Jiwan Kim, Jiwan Son, and Ian Oakley    
@@ -6,8 +7,6 @@ CHI '25: Proceedings of the 2025 CHI conference on Human Factors in Computing sy
 [DOI]() | [Video]()    
 
 ## About    
-
-![SonarSelect](SonarSelect.png)
 This open-source provides code for SonarSelect implementation.    
 
 User can experience three different target selection methods for around-device interaction on unmodified smartwatches.    
@@ -21,8 +20,11 @@ Dwell involves moving a cursor onto a target and remaining there for a predeterm
 3. Pinching    
 Triggering selection via a pinch of the index and thumb with the hand wearing the watch.   
 
-![SystemUI](system_ui.png)
-This code is implementing binart target selection task described in Study 1. You can modify the number of blocks or repetition and target width or distance at Utilities.java. You also can adjust sensitivity of cursor movement by adjusting PEAK_THR or POWER_THR at RangeFinder.java.    
+
+![SystemUI](system_ui.png){: width="50%"}{: .center}    
+
+
+This code implements binary target selection task described in Study 1. You can modify the number of blocks or repetition and target width or distance at Utilities.java. You also can adjust sensitivity of cursor movement by adjusting PEAK_THR or POWER_THR at RangeFinder.java.    
 
 ## Implementation    
 
