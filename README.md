@@ -36,5 +36,8 @@ This code implements binary target selection task described in Study 1. You can 
 
 This work adapted LLAP implementation (https://github.com/Samsonsjarkal/LLAP) for low latency acoustic phase detection. 
 
+## Contact    
+Jiwan Kim: [kjwan4435@gmail.com](mailto:kjwan4435@gmail.com)
+
 ## Reference
 To appear
