@@ -21,8 +21,8 @@ Dwell involves moving a cursor onto a target and remaining there for a predeterm
 Triggering selection via a pinch of the index and thumb with the hand wearing the watch.   
 
 
-![SystemUI](system_ui.png){: width="50%"}{: .center}    
-
+<!-- ![SystemUI](system_ui.png){: width="50%"}{: .center}     -->
+<center><img src="system_ui.png" width="300" height="300"></center>
 
 This code implements binary target selection task described in Study 1. You can modify the number of blocks or repetition and target width or distance at Utilities.java. You also can adjust sensitivity of cursor movement by adjusting PEAK_THR or POWER_THR at RangeFinder.java.    
 
