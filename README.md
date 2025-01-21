@@ -22,7 +22,7 @@ Triggering selection via a pinch of the index and thumb with the hand wearing th
 
 
 <!-- ![SystemUI](system_ui.png){: width="50%"}{: .center}     -->
-<center><img src="system_ui.png" width="300" height="300"></center>
+<p align="center"><img src="system_ui.png" width="50%"></p>
 
 This code implements binary target selection task described in Study 1. You can modify the number of blocks or repetition and target width or distance at Utilities.java. You also can adjust sensitivity of cursor movement by adjusting PEAK_THR or POWER_THR at RangeFinder.java.    
 
